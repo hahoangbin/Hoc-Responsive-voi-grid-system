@@ -1,0 +1,17 @@
+@media  (max-width: 768px) {
+.text {
+    color: green;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .text {
+        color: rgb(224, 228, 30);
+    }
+    }
+
+@media  (min-width: 1024px) {
+        .text {
+            color: red;
+        }
+        }
