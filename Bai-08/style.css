@@ -1,0 +1,54 @@
+
+
+.abc {
+    width: 100%;
+    display: flex;
+}
+
+.img {
+    width: 40%;
+    margin: 10px;
+}
+
+.imgg {
+    width: 100%;
+    margin: 10px;
+}
+
+.aaaa {
+    width: 60%;
+    margin: 20px;
+}
+
+.modal-responsive {
+    display: flex;
+
+}
+
+
+.col {
+    width: 22%;
+}
+
+@media screen and ( max-width: 768px ) {
+    .col {
+        width: 100%;
+    }
+    
+
+    .modal-responsive {
+        flex-direction: column;
+    }
+    }
+
+    @media screen and ( max-width: 1024px ) and ( min-width: 769px ) {
+        .col {
+            width: 50%;
+    
+        }
+    
+        .modal-responsive {
+            flex-wrap: wrap;
+        width: 100%;
+        }
+        }
