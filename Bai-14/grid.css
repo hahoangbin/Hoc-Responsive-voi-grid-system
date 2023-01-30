@@ -16,6 +16,10 @@
     margin-right: -4px;
 }
 
+.column {
+    width: 33.3333333%;
+}
+
 /* tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
     .wide {
@@ -37,5 +41,5 @@
     .row {
         margin-left: -12px;
         margin-right: -12px;
-    }
+    }  
 }
