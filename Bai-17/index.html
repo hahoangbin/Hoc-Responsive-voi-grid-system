@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            background: rgb(200, 240, 26);
+        }
+
+        .my-column {
+            text-align: center;
+            min-height: 50vh;
+            background-color: orange;
+        }
+
+        h1 {
+          margin: 0;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid wide container">
+      <div class="row no-gutters">
+        <div class="col l-6 m-6 c-6">
+          <div class="my-column">
+            <h1>No gutters</h1>
+          </div>
+        </div>
+        <div class="col l-6 m-6 c-6">
+          <div class="my-column">
+            <h1>No gutters</h1>
+          </div>
+        </div>
+        <div class="col l-6 m-6 c-6">
+          <div class="my-column">
+            <h1>No gutters</h1>
+          </div>
+        </div>
+        <div class="col l-6 m-6 c-6">
+          <div class="my-column">
+            <h1>No gutters</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
