@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .container {
+            background: rgb(200, 240, 26);
+        }
+
+        .my-column {
+            text-align: center;
+            min-height: 50vh;
+            background-color: orange;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid wide container">
+      <div class="row">
+        <div class="col l-6 m-8 c-10 l-o-3 m-o-2 c-o-1">
+          <div class="my-column">
+            <h1>Column offset</h1>
+          </div>
+        </div>
+        <div class="col m-5 m-o-3">
+          <div class="my-column">
+            <h1>My column</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
