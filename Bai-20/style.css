@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    margin-top: 16px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    min-height: 180px;
+    line-height: 180px;
+    background-color: orange;
+}
+
+.item-store {
+    margin: 16px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    min-height: 180px;
+    line-height: 180px;
+    background-color: rgb(31, 68, 148);
+}
