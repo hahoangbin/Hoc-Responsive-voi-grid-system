@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    font-size: 20px;
+    text-align: center;
+    min-height: 80px;
+    line-height: 80px;
+    background: rgb(73, 224, 141);
+}
+
+.main {
+    display: flex;
+    padding: 0 32px;
+}
+
+.sidebar {
+    width: 300px;
+    background: rgb(199, 73, 224);
+}
+
+.content {
+    width: calc(100% - 300px);
+}
+
+.col {
+    padding: 4px;
+}
