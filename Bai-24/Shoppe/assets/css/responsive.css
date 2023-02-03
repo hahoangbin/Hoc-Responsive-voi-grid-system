@@ -1,0 +1,20 @@
+
+/* Mobie */
+@media (max-width: 739px) {
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobie & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
