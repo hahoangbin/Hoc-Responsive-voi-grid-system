@@ -1,0 +1,58 @@
+
+/* Mobie */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .header__cart {
+        width: 86px;
+        text-align: right;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0px;
+    }
+
+    .header {
+        top: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .app__container {
+        margin-top: var(--header-height);
+    }
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .header__cart-list {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px) / 2);
+    }
+
+    .header__cart-list::after {
+        display: none;
+    }
+}
+
+/* PC */
+@media (min-width: 1024px) {
+
+}
